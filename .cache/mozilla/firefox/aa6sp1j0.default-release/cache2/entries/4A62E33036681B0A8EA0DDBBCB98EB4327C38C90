@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<!--
+Linear by TEMPLATED
+templated.co @templatedco
+Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+
+
+
+
+<html lang="en">
+<head>
+	<title>QEMU</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:300,400%7cRoboto:300,400,500' rel='stylesheet' type='text/css'>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="./assets/favicons/manifest.json">
+	<link rel="mask-icon" href="./assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-config" content="./assets/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="./assets/css/normalize.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="./assets/css/skel-noscript.css?v=2" />
+	<link rel="stylesheet" href="./assets/css/style.css?v=2" />
+	<link rel="stylesheet" href="./assets/css/style-mobile.css?v=2" media="(max-width:699px)"/>
+	<link rel="stylesheet" href="./assets/css/style-desktop.css?v=2" media="(min-width:700px)" />
+	<link rel="alternate" title="QEMU Blog (Atom feed)" href="./feed.xml" type="application/atom+xml" />
+	
+	<script src="./assets/js/glightbox.min.js"></script>
+	<link rel="stylesheet" href="./assets/css/glightbox.min.css" />
+	
+
+</head>
+<body class="homepage">
+
+	<!-- Header -->
+		<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			
+			<li class='not-desktop'><a href="./">Home</a>
+			<li class='donations'><a href="./donations">Donations</a>
+			</li><li ><a href="./download">Download</a>
+			</li><li ><a href="./support">Support</a>
+			</li><li ><a href="./contribute">Contribute</a>
+			</li><li ><a href="./documentation">Docs</a>
+			</li><li><a href="https://wiki.qemu.org">Wiki</a>
+			</li><li ><a href="./blog">Blog</a></li>
+		</ul>
+	</nav>
+
+<script>
+(() => {
+	document.body.classList.add('js');
+
+	// Cache DOM elements
+	const nav = document.getElementById('nav');
+	nav.insertAdjacentHTML('beforebegin',
+		'<div id="titleBar"><div><button role="button" aria-pressed="false" aria-controls="nav" aria-label="Toggle navigation bar"><span class="fa fa-lg fa-bars"></span></button></div></div>');
+
+	const navButton = document.querySelector('button[aria-controls="nav"]');
+	const titleBar = document.getElementById('titleBar');
+	let initNav = false;
+
+	navButton.addEventListener('click', () => {
+		if (!initNav) {
+			const titleBarDiv = document.querySelector('#titleBar > div');
+			nav.style.transition = 'margin-left 0.4s';
+			titleBarDiv.style.transition = 'margin-left 0.4s';
+			initNav = true;
+		}
+
+		const isPressed = navButton.getAttribute('aria-pressed') === 'true';
+		navButton.setAttribute('aria-pressed', !isPressed);
+		titleBar.classList.toggle('open', !isPressed);
+	});
+})();
+</script>
+
+
+	
+
+
+
+
+	<!-- Header -->
+	<div id="header">
+		<div class="container">
+			<h1>QEMU</h1>
+			<span class="tag">A generic and open source machine emulator and virtualizer</span>
+		</div>
+	</div>
+	
+<!-- Featured -->
+<div id="featured">
+	<header class="visuallyhidden">
+		<h2>Features</h2>
+	</header>
+	<div class="container">
+		<div class="row">
+			<section class="4u">
+				<div class="pennant">
+<a href="screenshots/800px-Qemu_linux.png" class="glightbox"
+   title="QEMU running the ReactOS operating system on Linux."
+   data-title="QEMU running the &lt;a href=&quot;http://www.reactos.org&quot;&gt;ReactOS&lt;/a&gt; operating system on Linux. Screenshot by &lt;a href=&quot;https://commons.wikimedia.org/wiki/User:Nurnware&quot;&gt;User:Nurnware&lt;/a&gt;  (&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Qemu_linux.png&quot;&gt;Source&lt;/a&gt;)"><img
+   src="screenshots/800px-Qemu_linux.png" alt="Screenshot: QEMU running the ReactOS operating system on Linux."/></a>
+
+</div>
+				<h3>Full-system<br class="only-desktop"> emulation</h3>
+				<p>Run operating systems for any machine, on any supported architecture</p>
+			</section>
+			<section class="4u">
+				<div class="pennant">
+<a href="screenshots/qemu-arm.png" class="glightbox"
+   title="QEMU running a 32-bit ARM binary on a 64-bit Linux system."
+   data-title="QEMU running a 32-bit ARM binary on a 64-bit Linux system."><img
+   src="screenshots/qemu-arm.png" alt="Screenshot: QEMU running a 32-bit ARM binary on a 64-bit Linux system."/></a>
+
+</div>
+				<h3>User-mode<br class="only-desktop"> emulation</h3>
+				<p>Run programs for another Linux/BSD target, on any supported architecture</p>
+			</section>
+			<section class="4u">
+				<div class="pennant">
+<a href="screenshots/qemu-advent-calendar-osv-redis.png" class="glightbox"
+   title="The dashboard of the OSv operating system, running in the background as a QEMU/KVM process."
+   data-title="The dashboard of the &lt;a href=&quot;http://osv.io&quot;&gt;OSv&lt;/a&gt; operating system, running in the background as a QEMU/KVM process. Courtesy of Dor Laor  (&lt;a href=&quot;http://www.qemu-advent-calendar.org/#day-11&quot;&gt;Source&lt;/a&gt;)"><img
+   src="screenshots/qemu-advent-calendar-osv-redis.png" alt="Screenshot: The dashboard of the OSv operating system, running in the background as a QEMU/KVM process."/></a>
+
+</div>
+				<h3>Virtualization</h3>
+				<p>Run KVM and Xen virtual machines with near native performance</p>
+			</section>
+			<section style="display: none;">
+			
+<a href="screenshots/qemu-advent-calendar-s390-moon-buggy.png" class="glightbox"
+   title="QEMU emulating an ASCII art game for the System z (s390) mainframe."
+   data-title="QEMU emulating an ASCII art game for the System z (s390) mainframe. Courtesy of Alexander Graf  (&lt;a href=&quot;http://www.qemu-advent-calendar.org/#day-22&quot;&gt;Source&lt;/a&gt;)"><img
+   src="screenshots/qemu-advent-calendar-s390-moon-buggy.png" alt="Screenshot: QEMU emulating an ASCII art game for the System z (s390) mainframe."/></a>
+
+<a href="screenshots/qemu-advent-calendar-second-reality.png" class="glightbox"
+   title="QEMU running Second Reality, a well-known PC demo from 1993, inside the FreeDOS operating system."
+   data-title="QEMU running Second Reality, a well-known PC demo from 1993, inside the FreeDOS operating system. Courtesy of Paolo Bonzini  (&lt;a href=&quot;http://www.qemu-advent-calendar.org/#day-13&quot;&gt;Source&lt;/a&gt;)"><img
+   src="screenshots/qemu-advent-calendar-second-reality.png" alt="Screenshot: QEMU running Second Reality, a well-known PC demo from 1993, inside the FreeDOS operating system."/></a>
+
+
+			</section>
+
+<script>
+window.addEventListener("load", () => {
+	GLightbox({touchNavigation: true, loop: true})
+});
+// make links to images inactive, except through the lightbox
+document.querySelectorAll('.glightbox').forEach((element) => {
+    element.addEventListener("click", () => {
+        return false;
+    });
+});
+</script>
+
+		</div>
+	</div>
+</div>
+
+<!-- Main -->
+	<div id="releases">
+		<header>
+			<h2>Latest releases</h2>
+		</header>
+		<div class="container">
+			<ul>
+
+<li><strong><a
+  href="https://download.qemu.org/qemu-11.0.0-rc0.tar.xz">11.0.0-rc0</a></strong>
+  Mar 18th 2026<br><a
+  href="https://download.qemu.org/qemu-11.0.0-rc0.tar.xz.sig">signature</a> &mdash; <a
+  href="https://wiki.qemu.org/ChangeLog/11.0">changes</a></li>
+
+<li><strong><a
+  href="https://download.qemu.org/qemu-10.2.2.tar.xz">10.2.2</a></strong>
+  Mar 17th 2026<br><a
+  href="https://download.qemu.org/qemu-10.2.2.tar.xz.sig">signature</a> &mdash; <a
+  href="https://wiki.qemu.org/ChangeLog/10.2">changes</a></li>
+
+<li><strong><a
+  href="https://download.qemu.org/qemu-10.1.5.tar.xz">10.1.5</a></strong>
+  Mar 17th 2026<br><a
+  href="https://download.qemu.org/qemu-10.1.5.tar.xz.sig">signature</a> &mdash; <a
+  href="https://wiki.qemu.org/ChangeLog/10.1">changes</a></li>
+
+<li><strong><a
+  href="https://download.qemu.org/qemu-10.0.9.tar.xz">10.0.9</a></strong>
+  Mar 17th 2026<br><a
+  href="https://download.qemu.org/qemu-10.0.9.tar.xz.sig">signature</a> &mdash; <a
+  href="https://wiki.qemu.org/ChangeLog/10.0">changes</a></li>
+
+<li><strong><a
+  href="https://download.qemu.org/qemu-9.2.4.tar.xz">9.2.4</a></strong>
+  May 26th 2025<br><a
+  href="https://download.qemu.org/qemu-9.2.4.tar.xz.sig">signature</a> &mdash; <a
+  href="https://wiki.qemu.org/ChangeLog/9.2">changes</a></li>
+
+</ul>
+<p><a class="button" href="https://download.qemu.org/">Full list of releases</a><p>
+
+		</div>
+	</div>
+
+
+<script>
+window.addEventListener("scroll", () => {
+	const isScroll = window.scrollY < 120;
+	const body = document.body;
+	if (isScroll && body.classList.contains('fixed'))
+		body.classList.remove('fixed')
+	else if (!isScroll && !body.classList.contains('fixed'))
+		body.classList.add('fixed')
+);
+</script>
+
+
+	<div id="footer">
+	<div id="external-links">
+		<ul class="style">
+			<li><a href="http://qemu-advent-calendar.org">Advent calendar</a></li>
+			<li><a href="https://planet.virt-tools.org/">Blog planet</a></li>
+			<li><a href="https://www.linux-kvm.org/">KVM</a></li>
+			<li><a href="http://libguestfs.org/">Libguestfs</a></li>
+			<li><a href="https://libvirt.org/">Libvirt</a></li>
+			<li><a href="https://xenproject.org">Xen</a></li>
+		</ul>
+	</div>
+	<div id="edit-page">
+		<a href="https://gitlab.com/qemu-project/qemu-web/-/blob/master/index.html">page source</a>
+	</div>
+	<div id="conservancy">
+		QEMU is a member of <a href="./conservancy/">Software Freedom Conservancy</a>
+	</div>
+	<div id="sponsors">
+		QEMU has <a href="./sponsors/">sponsors</a>
+	</div>
+	<div id="licenses">
+		<a href="./license.html">Website licenses</a>
+	</div>
+</div>
+
+
+</body>
+</html>
+rCYÉªz      i»ùGi»ùJIJõi»ûž   <    O^partitionKey=%28https%2Cqemu.org%29,:https://www.qemu.org/ necko:classified 1 peer-ip-address 140.211.15.4 peer-port 443 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.20.1
+Date: Thu, 19 Mar 2026 13:25:27 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 9972
+Cache-Control: max-age=600, public
+Etag: "7b43a1a90dc26aca95c3513a44db96dfca90b733d4dd4f7035e4de7946fe8a3c"
+Expires: Thu, 19 Mar 2026 13:35:27 GMT
+Last-Modified: Wed, 18 Mar 2026 21:41:25 GMT
+Permissions-Policy: interest-cohort=()
+Vary: Origin
+X-Request-Id: 01KM34BG5EZFK45R5VCEK7FQGS
+ original-response-headers Server: nginx/1.20.1
+Date: Thu, 19 Mar 2026 13:25:27 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 9972
+Connection: keep-alive
+Cache-Control: max-age=600, public
+Etag: "7b43a1a90dc26aca95c3513a44db96dfca90b733d4dd4f7035e4de7946fe8a3c"
+Expires: Thu, 19 Mar 2026 13:35:27 GMT
+Last-Modified: Wed, 18 Mar 2026 21:41:25 GMT
+Permissions-Policy: interest-cohort=()
+Vary: Origin
+X-Request-Id: 01KM34BG5EZFK45R5VCEK7FQGS
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1073 net-response-time-onstop 1084   &ô

@@ -1,0 +1,365 @@
+.navbar-sm { min-height:40px; height: 40px; }
+.navbar-sm .navbar-brand{ padding: 0px 12px;font-size: 16px;line-height: 40px; }
+.navbar-sm .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 40px; }
+
+body {
+  background-color: #eee;
+}
+
+footer dt h3 {
+  margin-top: 0px;
+}
+
+h2.section-heading {
+    margin-bottom: 20px;
+}
+
+tr:hover td {
+    background-color: #ECECEC;
+}
+
+div.panel-monitor-menu {
+    margin-bottom: 0;
+    border-bottom: 0;
+    background-color: #f6f6f6;
+}
+
+div.panel-monitor-menu div.panel-body {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+div.panel-default div.list-group:first-child {
+  border-top: 0px!important;
+}
+
+div.panel-body dl:last-child {
+  margin-bottom: 0px;
+}
+
+div.panel-body table:last-child {
+  margin-bottom: 0px;
+}
+
+div.panel-heading-buttons {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+div.panel-heading-buttons h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+div.panel-heading-buttons div.btn-group {
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+.button-new {
+  margin-top: 20px;
+}
+
+.button-build-action {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+h2.page-title {
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  padding: 3px 15px;
+}
+
+#content {
+  background-color: white;
+}
+
+h1.project-name {
+  margin-bottom: 20px;
+}
+
+.alert:first-child {
+  margin-top: 20px;
+}
+
+footer > div{
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#main-bar {
+  background-image: url('header_background.png');
+  background-repeat: repeat-x;
+  height: 75px;
+  color: white;
+  //margin-bottom: 30px;
+}
+
+#main-bar .container {
+  padding-top: 4px;
+}
+
+#login-menu {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#login-menu a{
+  color: white;
+}
+
+#logo {
+  position: relative;
+  top: 6px;
+  height: 58px;
+}
+
+div.breadcrumb-panel {
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+div.breadcrumb-panel ol.breadcrumb {
+  margin-bottom: 0px;
+}
+
+.build-pending,.build-pending>a {
+  color: #55b;
+}
+
+.build-starting,.build-starting>a {
+  color: #c84;
+}
+
+.build-importing,.build-importing>a {
+  color: #55b;
+}
+
+.build-running,.build-running>a {
+  color: #c84;
+}
+
+.build-succeeded,.build-succeeded>a {
+  color: #272;
+}
+
+.build-forked,.build-forked>a {
+  color: #272;
+}
+
+.build-skipped,.build-skipped>a {
+  color: #272;
+}
+
+.build-failed,.build-failed>a {
+  color: #c44;
+}
+
+.build-cancelled,.build-cancelled>a {
+  color: #666;
+}
+
+#profile {
+  height: 88px;
+}
+
+#profile h1 {
+  padding-top: 15px;
+}
+
+#profile p {
+  color: #ddd;
+}
+
+#profile img {
+  float: left;
+  margin-right: 20px;
+}
+
+img.avatar {
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.alert ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+table.permissions {
+  margin-bottom: 0px;
+}
+
+.highlight pre {
+  font-size: 12px !important;
+}
+
+.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err {} /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+#project-score button {
+  background: none !important;
+}
+
+.text-green {
+  color: #00A000;
+}
+
+#homepage-jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+
+#homepage-jumbotron h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+#homepage-jumbotron h2 > span {
+  color: #214d8b;
+}
+
+#homepage-jumbotron form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#homepage-jumbotron p {
+  font-size: 14px;
+}
+
+.documentation-cards, .col-sm-3 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-padding {
+  padding-left: 10px;
+}
+
+.documentation-cards h3 {
+  text-align: center;
+}
+
+.documentation-cards span {
+  margin-top: 5px;
+}
+
+.documentation-cards {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.documentation-cards i.fa {
+  font-size: 30px;
+  float:left;
+  margin-right: 12px;
+}
+
+.outage-warning {
+  text-align: center;
+}
+¢Ò™\Êf      i¼8li¼8nIJBº       i    O^partitionKey=%28https%2Ccopr.fedorainfracloud.org%29,:https://copr.fedorainfracloud.org/static/copr.css strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+strict-transport-security: max-age=31536000; preload
+apptime: D=6309
+cache-control: no-cache
+content-disposition: inline; filename=copr.css
+content-length: 8068
+content-type: text/css; charset=utf-8
+date: Thu, 19 Mar 2026 17:54:53 GMT
+etag: "1773360000.0-8068-316806187"
+last-modified: Fri, 13 Mar 2026 00:00:00 GMT
+server: Apache
+x-fedora-appserver: copr-fe.aws.fedoraproject.org
+X-Firefox-Spdy: h2
+ original-response-headers strict-transport-security: max-age=31536000; preload
+apptime: D=6309
+cache-control: no-cache
+content-disposition: inline; filename=copr.css
+content-length: 8068
+content-type: text/css; charset=utf-8
+date: Thu, 19 Mar 2026 17:54:53 GMT
+etag: "1773360000.0-8068-316806187"
+last-modified: Fri, 13 Mar 2026 00:00:00 GMT
+server: Apache
+x-fedora-appserver: copr-fe.aws.fedoraproject.org
+set-cookie: session=960a8fc6-54ae-460d-aa1e-6a8e9be953a9; Expires=Sun, 19 Apr 2026 17:54:53 GMT; HttpOnly; Path=/
+X-Firefox-Spdy: h2
+ ctid 5 uncompressed-len 0 net-response-time-onstart 2216 net-response-time-onstop 2218   „
